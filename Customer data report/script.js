@@ -20,14 +20,15 @@ function addRow() {
     document.getElementById("emailInput").value = "";
 
     const initialData = [
-        { name: "John Doe", designation: "Developer", email: "john@example.com" },
+    
         // Add more rows as needed
     ];
 
     
 
 // Initialize the table with initial data
-const tableBody = document.getElementById("tableBody");
+const myTable = document.getElementById("tableBody");
+
 initialData.forEach(rowData => {
     const newRow = tableBody.insertRow();
     newRow.insertCell().textContent = rowData.name;
