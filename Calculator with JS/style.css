@@ -20,7 +20,7 @@ h1 {
     }  
 input:hover  
 {  
-    background-color: green;  
+    background-color: goldenrod;  
 }  
       
 *{  
@@ -35,8 +35,8 @@ input:hover
         font-size: 25px;  
         margin: 2px;  
         cursor: pointer;  
-        background-color: red;  
-        color: white;  
+        background-color: yellow;  
+        color: black  
   
 }  
   
